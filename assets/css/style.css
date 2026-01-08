@@ -928,6 +928,11 @@ section .container {
   right: 15px;
 }
 
+.portfolio .portfolio-wrap img {
+  width: 100%;       /* Ancho del contenedor */
+  height: 200px;     /* Altura fija */
+  object-fit: cover; /* Recorta la imagen para que encaje sin deformar */
+}
 
 
 /*--------------------------------------------------------------
@@ -1191,5 +1196,3 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
-
-<!--JDL-->
